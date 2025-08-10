@@ -1,6 +1,5 @@
 # 🎉 CycleSenseAI
 
-![CycleSenseAI Banner](./images/banner.png)
 
 ---
 
@@ -35,17 +34,31 @@
 ## 🗂️ Project Structure
 
 ```plaintext
+## 🗂️ Project Structure
+
+```plaintext
 CycleSenseAI/
 │
-├── images/                  # All UI images and assets
+├── images_used/             # All UI images and assets used in the app
 ├── dataset/                 # Kaggle dataset and preprocessed files
 ├── models/                  # Trained LSTM `.pth` model files
-├── main.py                  # Main application entry
-├── gui.py                   # CustomTkinter GUI code
+├── main.py                  # Main application entry point (runs the full app)
+├── gui.py                   # GUI components (CustomTkinter main interface)
 ├── chatbot.py               # Chatbot embedding and logic
-├── database.py              # Supabase integration and auth
+├── database.py              # Supabase backend integration and authentication
+├── first_page.py            # Initial GUI page (welcome/get started)
+├── forgotpassword.py        # GUI and logic for 'Forgot Password' feature
+├── getstarted.py            # First entry page for new users
+├── login.py                 # Login GUI and credential handling
+├── phase_calculation.py     # Logic for menstrual phase calculation
+├── signup.py                # Signup GUI and logic for new accounts
+├── bot2.py                  # Chatbot GUI and interaction logic
+├── insights.py              # Main dashboard: date prediction, mood selection, articles
+├── tracker.py               # Calendar GUI, LSTM input setup for predictions
+├── modellstm.py             # LSTM model definition and loading
 ├── requirements.txt         # Python dependencies
 └── README.md                # This file
+
 
 
 ```
