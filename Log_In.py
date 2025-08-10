@@ -15,7 +15,7 @@ class Login:
         )
         self.frame.pack(fill="both", expand=True)
         #Setting upper frame image
-        self.upper_frame_img = ImageTk.PhotoImage(Image.open("half_bg_image.jpg").resize((600,475)))
+        self.upper_frame_img = ImageTk.PhotoImage(Image.open("Images_used\half_bg_image.jpg").resize((600,475)))
         self.frame2 = ctk.CTkFrame(self.app, fg_color="#DC6E87")
         self.frame2.place(relx=0, rely=0, relwidth=1, relheight=0.5)
         self.label = ctk.CTkLabel(
