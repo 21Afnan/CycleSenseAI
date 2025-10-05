@@ -60,6 +60,19 @@ CycleSenseAI/
 └── README.md                # This file
 
 
+## 📸 Flashcards — App Interface Preview
+
+Below are snapshots of **CycleSenseAI’s interactive interface**, showcasing the seamless user flow and key features.
+
+| 🪪 Login Page | 🧑‍💻 Signup Page | 🚀 Get Started |
+|:-------------:|:----------------:|:--------------:|
+| <img src="images_used/login.png" width="250"/> | <img src="images_used/signup.png" width="250"/> | <img src="images_used/getstarted.png" width="250"/> |
+
+| 📊 Main Dashboard | 🤖 Chatbot Assistant |
+|:-----------------:|:-------------------:|
+| <img src="images_used/dashboard.png" width="250"/> | <img src="images_used/chatbot.png" width="250"/> |
+
+> 💡 *These flashcards highlight the app’s clean UI design, predictive analytics, and conversational assistant built with Google AI Studio.*
 
 ```
 ## 📩 Contact
