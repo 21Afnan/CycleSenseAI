@@ -59,20 +59,20 @@ CycleSenseAI/
 ├── requirements.txt         # Python dependencies
 └── README.md                # This file
 
+```
+## 📷 Screenshots
 
-## 📸 Flashcards — App Interface Preview
+| Login Page                 | Signup Page                 |
+| -------------------------- | --------------------------- |
+| ![](screenshots/login.png) | ![](screenshots/signup.png) |
 
-Below are snapshots of **CycleSenseAI’s interactive interface**, showcasing the seamless user flow and key features.
+| Main Dashboard                 | Transaction History              |
+| ------------------------------ | -------------------------------- |
+| ![](screenshots/main_page.png) | ![](screenshots/transaction.png) |
 
-| 🪪 Login Page | 🧑‍💻 Signup Page | 🚀 Get Started |
-|:-------------:|:----------------:|:--------------:|
-| <img src="images_used/login.png" width="250"/> | <img src="images_used/signup.png" width="250"/> | <img src="images_used/getstarted.png" width="250"/> |
+> These interfaces were designed to demonstrate ease of use and clean UX for users — all powered by the flexibility of Python.
 
-| 📊 Main Dashboard | 🤖 Chatbot Assistant |
-|:-----------------:|:-------------------:|
-| <img src="images_used/dashboard.png" width="250"/> | <img src="images_used/chatbot.png" width="250"/> |
-
-> 💡 *These flashcards highlight the app’s clean UI design, predictive analytics, and conversational assistant built with Google AI Studio.*
+---
 
 ```
 ## 📩 Contact
