@@ -13,7 +13,7 @@ class PeriodBotApp:
         self.app = app
         warnings.filterwarnings('ignore')
         # Gemini API Configuration
-        genai.configure(api_key="AIzaSyDTH2D3f-v__jQjdWEEihzCXSicCjYix2A")
+        genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
         generation_config = {
             "temperature": 0.35,
             "top_p": 0.95,
